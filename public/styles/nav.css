@@ -27,15 +27,23 @@ nav {
   color: crimson;
 }
 
-.new-tweet-link{
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  cursor: pointer;
-  font-size: 25px;
-  margin-bottom: 5px;
-  color: #fff;
+#writeNew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  padding-right: 1.5em;
+  margin: 0;
+}
+#writeNew > p{
+  margin-block-end: 0%;
 }
 
 #double-arrow{
   color: crimson;
+  justify-content: center;
+}
+
+#double-arrow:hover {
+  color: white;
 }
