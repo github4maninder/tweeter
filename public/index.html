@@ -47,11 +47,22 @@
       </div>
       <br>
       <div>
-          <h2 class="header-name">Minnie Mouse</h2>
+          <h2 class="header-name"><strong>Minnie</strong> Mouse</h2>
       </div>
   </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="container">
+      
+      <!-- New Tweet Form-->
+      <form action="/tweet" method="POST" id="post-tweet">
+        <label for="tweet-text">What are you humming about?</label>
+        <textarea class="tweet-box" name="text" id='tweet-text'></textarea>
+        <div>
+          <button type="submit" class="tweet-button">Tweet</button>
+          <output name="counter" class="counter" for="tweet-text">140</output>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
