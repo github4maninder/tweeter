@@ -22,20 +22,25 @@ body {
 }
 
 nav {
-  font-family: 'Bungee', cursive;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #4056A1;
-  COLOR: WHITE;
+  color: WHITE;
   HEIGHT: 120px;
   width: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  padding-top: 1.5em;
   overflow: hidden;
   position: fixed;
   top: 0;
 }
+
+.logo {
+  font-family: 'Bungee', cursive;
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
