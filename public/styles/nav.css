@@ -1,0 +1,27 @@
+
+nav {
+  height: 120px;
+  background-color: #4056A1;
+  color: WHITE;
+  padding-left: 1em;
+  padding-right: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1; 
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.birdImg{
+  width: 100px;
+  height: 100px;
+  float: center;
+}
+.logo {
+  font-family: 'Bungee', cursive;
+  font-size: 50px;
+}

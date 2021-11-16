@@ -17,33 +17,11 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
-  font-size: 24px;
   font-family: 'Source Sans Pro', Sans-serif;
-}
-
-nav {
+  font-size: 24px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #4056A1;
-  color: WHITE;
-  HEIGHT: 120px;
-  width: 100%;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  overflow: hidden;
-  position: static;
-  top: 0;
-}
-
-.birdImg{
-  width: 100px;
-  height: 100px;
-  float: center;
-}
-.logo {
-  font-family: 'Bungee', cursive;
-  font-size: 30px;
+  flex-direction: column;
+  width: auto;
 }
 
 /*
