@@ -1,0 +1,22 @@
+body > header{
+  display: flex;
+  height: 400px;
+  width: 100%;
+  margin-top: 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgoldenrod;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  color: #fff;
+  z-index: 0;
+}
+
+#avatar {
+  z-index: 1;
+}
+
+.header-name{
+  font-weight: 300;
+  margin-top: 0;
+}

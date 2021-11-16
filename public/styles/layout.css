@@ -31,14 +31,19 @@ nav {
   width: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  padding-top: 1.5em;
   overflow: hidden;
-  position: fixed;
+  position: static;
   top: 0;
 }
 
+.birdImg{
+  width: 100px;
+  height: 100px;
+  float: center;
+}
 .logo {
   font-family: 'Bungee', cursive;
+  font-size: 30px;
 }
 
 /*
