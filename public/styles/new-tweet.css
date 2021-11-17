@@ -1,0 +1,27 @@
+#post-tweet{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 1em;
+}
+
+/* tweet button and character count*/
+#post-tweet div {
+  display: flex;
+  justify-content: space-between;
+  font-family: Bungee;
+  margin-top: 1rem;
+}
+
+.tweet-button {
+  background-color: #4056A1;
+  color: #FFF;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+
+#tweet-text {
+  border: none;
+  border-bottom: 3px solid #545149;
+  background-color: rgba(0, 0, 0, 0);
+}

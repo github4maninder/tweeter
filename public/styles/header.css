@@ -16,7 +16,8 @@ body > header{
   z-index: 1;
 }
 
-.header-name{
-  font-weight: 300;
+h2.header-name{
+  font-weight: normal;
   margin-top: 0;
+  text-align: center;
 }
