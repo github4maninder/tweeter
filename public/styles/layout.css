@@ -15,8 +15,8 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  color: #030e12;
+  background-color: #fcde67;
   font-family: 'Source Sans Pro', Sans-serif;
   font-size: 24px;
   display: flex;
@@ -35,5 +35,18 @@ body {
    flex-direction: column;
    justify-content: space-around;
    align-items: space-around;
-   background-color: #f4f1ec;
+   background-color: #fcde67;
+   color: #000;
+ }
+
+ @media (min-width:1024px){
+   body {
+     flex-direction: column;
+   }
+
+   main{
+     margin-left: 1em;
+     margin-top: 10px;
+     margin-right: 3em;
+   }
  }

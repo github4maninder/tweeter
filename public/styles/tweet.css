@@ -1,0 +1,54 @@
+article {
+  width: 100%;
+  background-color: rgb(156, 167, 5);
+  border: solid 5px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+article:hover {
+  box-shadow: 5px 5px #104a7370;
+  transition-duration: 0.2s;
+}
+
+.tweets {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em 1em 0 1em;
+  font-size: small;
+  border-top: solid 5px;
+  user-select: none;
+}
+
+p {
+  padding: 0 1em 0 1em;
+}
+
+.userid {
+  opacity: 50%;
+}
+
+.username {
+  font-weight:lighter;
+}
+
+.fas:hover {
+  opacity: 50%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
