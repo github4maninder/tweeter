@@ -16,7 +16,7 @@ html {
 
 body {
   color: #030e12;
-  background-color: #fcde67;
+  background-color: #b5bec5;
   font-family: 'Source Sans Pro', Sans-serif;
   font-size: 24px;
   display: flex;
@@ -35,13 +35,13 @@ body {
    flex-direction: column;
    justify-content: space-around;
    align-items: space-around;
-   background-color: #fcde67;
+   background-color: #c7b31d;
    color: #000;
  }
 
  @media (min-width: 720px){
    body {
-     flex-direction: column;
+     flex-direction: row;
    }
 
    main{

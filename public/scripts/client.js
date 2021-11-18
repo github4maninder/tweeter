@@ -75,7 +75,7 @@ $(document).ready(function() {
       $('#tweet-text').val("");
       $('.counter').text(140);
       $('#post-tweet').css("display", "none");
-      $('#tweets-container').empty()
+      $('#tweets-container').empty(); // clear the tweets-container
       loadTweets(data);
     });
   });
