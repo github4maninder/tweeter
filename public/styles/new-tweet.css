@@ -13,6 +13,11 @@
   margin-top: 1rem;
 }
 
+#post-tweet label{
+  font-weight: 600;
+  font-size: 19px;
+}
+
 .tweet-button {
   background-color: #4056A1;
   color: #FFF;

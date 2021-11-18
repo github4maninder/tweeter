@@ -1,54 +1,75 @@
-article {
-  width: 100%;
-  background-color: rgb(156, 167, 5);
-  border: solid 5px;
-  margin-bottom: 1em;
-  padding: 0.5em;
-  border-radius: 5px;
+#tweets-container {
+  word-break: break-all;
 }
 
-article:hover {
-  box-shadow: 5px 5px #104a7370;
-  transition-duration: 0.2s;
+.all-tweets article {
+  border: 3px solid #545149;
+  padding: 10px;
+  margin: 40px 0px;
 }
 
-.tweets {
+.all-tweets article:hover{
+  box-shadow: 8px 8px rgba(64, 86, 161, 0.3);
+}
+
+.all-tweets article header {
   display: flex;
-  flex-direction: column;
-  width: 100%;
   justify-content: space-between;
+  margin: 5px 0px 15px 0px;
+  padding: 0px;
+  height: 60px;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0.5em 1em 0 1em;
-  font-size: small;
-  border-top: solid 5px;
-  user-select: none;
-}
+ /* name, icon and handle */
+ .all-tweets .tweet-top-left{
+   display: flex;
+   margin-left: 10px;
+ }
 
-p {
-  padding: 0 1em 0 1em;
-}
+ .all-tweets .user-name {
+   font-weight: 300;
+ }
 
-.userid {
-  opacity: 50%;
-}
+ .all-tweets .avatar {
+   width: 2em;
+   margin-right: 10px;
+ }
 
-.username {
-  font-weight:lighter;
-}
+ .all-tweets .handle {
+   font-weight: 600;
+   color: #4056A1;
+   opacity: 0.3;
+   margin-right: 15px;
+   margin-top: 20px;
+ }
 
-.fas:hover {
-  opacity: 50%;
-  cursor: pointer;
-  transition-duration: 0.2s;
-}
+ .all-tweets article p {
+   border-bottom: 3px solid #545149;
+   padding: 30px 15px 20px 15px;
+   margin: auto;
+   font-weight: 600;
+ }
+
+ .all-tweets article footer {
+   display: flex;
+   justify-content: space-between;
+   font-size: 0.6em;
+   margin: 0px 15px 10px 15px;
+ }
+
+ .time {
+   padding-top: 10px;
+   font-size: 15px;
+   font-weight: 600;
+ }
+
+ .reactions a * {
+   padding-left : 12px;
+   margin-top: 10px;
+   color: #4056A1;
+ }
+
+ .reactions *:hover {
+   color: rgb(201, 172, 9);
+ }
