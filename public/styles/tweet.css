@@ -3,7 +3,7 @@
 }
 
 .all-tweets article {
-  border: 3px solid #545149;
+  border: 3px solid #0a0a09;
   padding: 10px;
   margin: 40px 0px;
 }
@@ -38,8 +38,8 @@
 
  .all-tweets .handle {
    font-weight: 600;
-   color: #4056A1;
-   opacity: 0.3;
+   color: #0f0e0d;
+  opacity: 0.5;
    margin-right: 15px;
    margin-top: 20px;
  }
@@ -67,9 +67,9 @@
  .reactions a * {
    padding-left : 12px;
    margin-top: 10px;
-   color: #4056A1;
+   color: #b80a0a;
  }
 
  .reactions *:hover {
-   color: rgb(52, 9, 92);
+   color: rgb(10, 9, 9);
  }

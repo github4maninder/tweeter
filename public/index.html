@@ -36,9 +36,12 @@
     <!-- Top nav bar (fixed) -->
     <nav>
       <span class="logo"><img class='birdImg' src="/images/bird.png">Tweeter</span>
-      <div id ="writeNew">
-      <p><strong>Write</strong> a new tweet</p>
-      <a><i class="fas fa-angle-double-down" id="double-arrow"></i></a>
+      
+      <div class ="nav-links">
+        <button class = 'new-tweet-link' type="button">
+          <p><strong>Write</strong> a new tweet</p>
+          <i class="fas fa-angle-double-down" id="double-arrow"></i>
+        </button>
       </div>
     </nav>
 
@@ -58,6 +61,18 @@
       
       <section class="new-tweet">
         <!-- New Tweet Form-->
+        <div class="error-messages-container">
+          <div class="error-messages" id="empty-tweet">
+            <i class="fas fa-exclamation-triangle"></i>
+              Cannot post an empty tweet!
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+          <div class="error-messages" id="too-long">
+            <i class="fas fa-exclamation-triangle"></i>
+               Too many characters!
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+        </div>
         <!-- <h2>Compose Tweet</h2> -->
         <form action="/tweets" method="POST" id="post-tweet">
           <label for="tweet-text">What are you humming about?</label>

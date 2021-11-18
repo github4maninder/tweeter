@@ -1,5 +1,4 @@
 /* Styling for photo and name*/
-
 body > header{
   display: flex;
   height: 400px;
@@ -10,7 +9,7 @@ body > header{
   align-items: center;
   background-color: #5cdb95;
   background-image: url("https://www.transparenttextures.com/patterns/robots.png");
-  color: #606111;
+  color: #181094;
   z-index: 0;
 }
 
@@ -24,7 +23,8 @@ h2.header-name{
   text-align: center;
 }
 
-@media (min-width: 720px) {
+/*add responsive design for mobile screens*/
+@media only screen and (min-width: 720px) {
   body > header {
     max-width: 30%;
     margin: 200px 50px 0px 50px;

@@ -30,3 +30,18 @@
   border-bottom: 3px solid #070606;
   background-color: rgba(0, 0, 0, 0);
 }
+
+.error-messages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error-messages {
+  display: none;
+  border: 3px solid red;
+  color: red;
+  font-weight: 600;
+  margin: 10px auto;
+  padding: 15px 30px 15px 15px;
+}
