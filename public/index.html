@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous"  referrerpolicy="no-referrer" /> 
 
   </head>
+
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
@@ -55,22 +56,24 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       
-      <!-- New Tweet Form-->
-      <!-- <h2>Compose Tweet</h2> -->
-      <form action="/tweet" method="POST" id="post-tweet">
-        <label for="tweet-text">What are you humming about?</label>
-        <textarea class="tweet-box" name="text" id="tweet-text"></textarea>
-        <div>
-          <button type="submit" class="tweet-button">Tweet</button>
-          <output name="counter" class="counter" for="tweet-text">140</output>
-        </div>
-      </form>
+      <section class="new-tweet">
+        <!-- New Tweet Form-->
+        <!-- <h2>Compose Tweet</h2> -->
+        <form action="/tweets" method="POST" id="post-tweet">
+          <label for="tweet-text">What are you humming about?</label>
+          <textarea class="tweet-box" name="text" id="tweet-text"></textarea>
+          <div>
+            <button type="submit" class="tweet-button">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+      </section>
 
      <section class="all-tweets" id="tweets-container">
-      
+       
      </section>
     </main>
-
+      
   </body>
 
 </html>

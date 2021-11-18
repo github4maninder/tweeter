@@ -26,6 +26,12 @@ nav {
   color: crimson;
 }
 
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 #writeNew {
   display: flex;
   flex-direction: column;

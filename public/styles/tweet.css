@@ -45,7 +45,7 @@
  }
 
  .all-tweets article p {
-   border-bottom: 3px solid #545149;
+   border-bottom: 3px solid #0b0b0f;
    padding: 30px 15px 20px 15px;
    margin: auto;
    font-weight: 600;
@@ -71,5 +71,5 @@
  }
 
  .reactions *:hover {
-   color: rgb(201, 172, 9);
+   color: rgb(52, 9, 92);
  }

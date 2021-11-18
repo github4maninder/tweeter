@@ -10,7 +10,7 @@ body > header{
   align-items: center;
   background-color: #5cdb95;
   background-image: url("https://www.transparenttextures.com/patterns/robots.png");
-  color: #05386b;
+  color: #606111;
   z-index: 0;
 }
 
@@ -22,4 +22,14 @@ h2.header-name{
   font-weight: normal;
   margin-top: 0;
   text-align: center;
+}
+
+@media (min-width: 720px) {
+  body > header {
+    max-width: 30%;
+    margin: 200px 50px 0px 50px;
+  }
+  .header-name {
+    margin-top: 0;
+  }
 }
