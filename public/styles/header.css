@@ -7,7 +7,7 @@ body > header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #5cdb95;
+  background-color: rgb(18, 128, 143);
   background-image: url("https://www.transparenttextures.com/patterns/robots.png");
   color: #181094;
   z-index: 0;
