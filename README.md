@@ -28,7 +28,7 @@ Tweeter is a simple, single-page Twitter clone. This uses HTML, CSS, JS, jQuery 
 
 ## Functionality Demonstration:
 
-!["New Tweet"](public/docs/phoneView.JPG)
+!["New Tweet"](public/docs/mainView.JPG)
 !["Error 1(Tweet is too Short)"](public/docs/tooShort.JPG)
 !["Error 2 (Tweet is too Long)"](public/docs/tooLong.JPG)
 !["Hover over"](public/docs/hoverView.JPG)
