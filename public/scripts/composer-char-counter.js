@@ -1,7 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function() {
   const tweetBox = $('.tweet-box');
 
-  tweetBox.keyup(function () {
+  tweetBox.keyup(function() {
     
     const counter = $('.counter');
 

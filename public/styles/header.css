@@ -1,5 +1,5 @@
 /* Styling for photo and name*/
-body > header{
+body > header {
   display: flex;
   height: 400px;
   width: 100%;
