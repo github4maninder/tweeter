@@ -2,6 +2,14 @@
 
 Tweeter is a simple, single-page Twitter clone. This uses HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
 
+## Functionality Demonstration:
+
+!["New Tweet"](public/docs/newTweet.gif)
+!["Error 1(Tweet is too Short)"](public/docs/tooShort.JPG)
+!["Error 2 (Tweet is too Long)"](public/docs/tooLong.JPG)
+!["Hover over"](public/docs/hoverView.JPG)
+!["Screen resize on mobile"](public/docs/phoneView.JPG)
+
 ## It has the following features:
 
 1. A new tweet form slides up and down when the arrow button in the top right corner is pressed.
@@ -25,12 +33,3 @@ Tweeter is a simple, single-page Twitter clone. This uses HTML, CSS, JS, jQuery 
 - Node 5.10.x or above
 - body-parser
 - Chance
-
-## Functionality Demonstration:
-
-!["New Tweet"](public/docs/newTweet.gif)
-!["Error 1(Tweet is too Short)"](public/docs/tooShort.JPG)
-!["Error 2 (Tweet is too Long)"](public/docs/tooLong.JPG)
-!["Hover over"](public/docs/hoverView.JPG)
-!["Screen resize on mobile"](public/docs/phoneView.JPG)
-
